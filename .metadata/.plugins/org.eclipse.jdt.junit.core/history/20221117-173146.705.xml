@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testrunnerclass" project="Assignment_cucumber" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="TestRunner.testrunnerclass" time="7.731">
+    <testsuite name="Feature: Signup and send email" time="7.731">
+      <testcase name="Sign up to the given application" classname="Signup and send email" time="7.693"/>
+      <testcase name="Login and send email" classname="Signup and send email" time="0.006">
+        <skipped>cucumber.runtime.junit.UndefinedThrowable: The step "User logins to upskill site" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User navigates to Inbox" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User clicks on compose message" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User enters Send to deatils" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User enters Subject" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User clicks on Send Message" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User will be able to send mail successfully" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

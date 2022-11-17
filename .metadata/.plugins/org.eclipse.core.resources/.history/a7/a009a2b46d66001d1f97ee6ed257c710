@@ -1,0 +1,68 @@
+package StepDefination;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class stepdefinationclass {
+	
+	WebDriver driver;
+	
+	@Given("User navigates to the upskills site")
+	public void user_navigates_to_the_upskills_site() {
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\035852744\\Downloads\\chromedriver_win32\\chromedriver.exe");
+
+	       driver = new ChromeDriver();
+	       driver.get("http://elearningm1.upskills.in/index.php");
+	}
+
+	@When("User clicks on sign up option")
+	public void user_clicks_on_sign_up_option() {
+	   
+	driver.findElement(By.xpath("//*[@id=\"login_block\"]/div/ul/li/a")).click();
+	}
+
+	@When("User enters First Name AND Last Name")
+	public void user_enters_First_Name_AND_Last_Name() {
+
+		driver.findElement(By.name("firstname")).sendKeys("Fname");
+		driver.findElement(By.name("lastname")).sendKeys("Lname");
+	    
+	}
+
+	@When("User enters email")
+	public void user_enters_email() {
+		driver.findElement(By.name("email")).sendKeys("F_Lname.@testmail.com");	    
+	}
+
+	@When("User enters Username")
+	public void user_enters_Username() {
+		driver.findElement(By.name("username")).sendKeys("Flname");
+	}
+
+	@When("User enters pass")
+	public void user_enters_pass() {
+		driver.findElement(By.name("pass1")).sendKeys("Test@1234");
+	}
+
+	@When("User enters confirm passwors")
+	public void user_enters_confirm_passwors() {
+		driver.findElement(By.name("pass2")).sendKeys("Test@1234");
+	}
+
+	@When("User clicks on Register button")
+	public void user_clicks_on_Register_button() {
+		driver.findElement(By.name("submit")).click();
+	}
+
+	@Then("User will be successfully signed up")
+	public void user_will_be_successfully_signed_up() {
+	    System.out.println("Registration complete successfully");
+		
+	}
+
+}

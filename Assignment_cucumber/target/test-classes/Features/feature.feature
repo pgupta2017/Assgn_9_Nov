@@ -1,0 +1,23 @@
+
+Feature: Signup and send email
+  
+  Scenario: Sign up to the given application
+    Given User navigates to the upskills site
+    When User clicks on sign up option
+    And User enters First Name AND Last Name
+    And User enters email
+    And User enters Username
+    And User enters pass
+    And User enters confirm password
+    And User clicks on Register button
+    Then User will be successfully signed up
+    
+Scenario: Login and send email
+    Given User logins to upskill site
+    When User navigates to Inbox
+    And User clicks on compose message
+    And User enters Send to deatils
+    And User enters Subject
+    And User clicks on Send Message
+    Then User will be able to send mail successfully
+    

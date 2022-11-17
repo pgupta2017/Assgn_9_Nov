@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-04T13:28:22 IST" name="Default suite" finished-at="2022-11-04T13:28:28 IST" duration-ms="6127">
+    <groups>
+    </groups>
+    <test started-at="2022-11-04T13:28:22 IST" name="Default test" finished-at="2022-11-04T13:28:28 IST" duration-ms="6127">
+      <class name="first_Selenium_Program.TestNG_Assignment">
+        <test-method is-config="true" signature="Credentials()[pri:0, instance:first_Selenium_Program.TestNG_Assignment@c333c60]" started-at="2022-11-04T13:28:22 IST" name="Credentials" finished-at="2022-11-04T13:28:27 IST" duration-ms="5373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Credentials -->
+        <test-method signature="LaunchFB()[pri:0, instance:first_Selenium_Program.TestNG_Assignment@c333c60]" started-at="2022-11-04T13:28:27 IST" name="LaunchFB" finished-at="2022-11-04T13:28:28 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchFB -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:first_Selenium_Program.TestNG_Assignment@c333c60]" started-at="2022-11-04T13:28:28 IST" name="closebrowser" finished-at="2022-11-04T13:28:28 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- first_Selenium_Program.TestNG_Assignment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testrunnerclass" project="Assignment_cucumber" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="TestRunner.testrunnerclass" time="7.443">
+    <testsuite name="Feature: Signup and send email" time="7.443">
+      <testcase name="Sign up to the given application" classname="Signup and send email" time="7.443"/>
+    </testsuite>
+  </testsuite>
+</testrun>
